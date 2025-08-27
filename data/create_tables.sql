@@ -6,7 +6,7 @@ CREATE TABLE Customers (
     Segmento VARCHAR(50),
     Regiao VARCHAR(50),
     DataContrato DATE,
-    Plano VARCHAR(20)
+    Plano VARCHAR(20) -- Enterprise, Pro e Basic.
 );
 
 -- Assinaturas (MRR)
